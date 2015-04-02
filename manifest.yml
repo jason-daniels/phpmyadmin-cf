@@ -1,0 +1,6 @@
+---
+#Generated manifest
+applications:
+- name: phpmyadmin-cfready
+  memory: 1G
+  instances: 1
