@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "323a4c71aa1666c4ac9161a9c358d493",
+    "hash": "b2cb429bdec51226c4a31eb239ff36c8",
     "packages": [
         {
             "name": "arhframe/util",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arhframe/util.git",
-                "reference": "ce073c750ee38b9b6f13ca4d24aee2131f98291e"
+                "reference": "04871cb1490acc4e97a8f1ded44543eb754565c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arhframe/util/zipball/ce073c750ee38b9b6f13ca4d24aee2131f98291e",
-                "reference": "ce073c750ee38b9b6f13ca4d24aee2131f98291e",
+                "url": "https://api.github.com/repos/arhframe/util/zipball/04871cb1490acc4e97a8f1ded44543eb754565c2",
+                "reference": "04871cb1490acc4e97a8f1ded44543eb754565c2",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "framework",
                 "util"
             ],
-            "time": "2015-03-15 15:06:17"
+            "time": "2015-04-11 18:35:26"
         },
         {
             "name": "arhframe/yamlarh",
@@ -100,22 +100,22 @@
         },
         {
             "name": "cloudfoundry-community/cf-helper-php",
-            "version": "dev-master",
+            "version": "1.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudfoundry-community/cf-helper-php.git",
-                "reference": "8b4352413423c47e5f325144efd1ca1d1bc8c8f8"
+                "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudfoundry-community/cf-helper-php/zipball/8b4352413423c47e5f325144efd1ca1d1bc8c8f8",
-                "reference": "8b4352413423c47e5f325144efd1ca1d1bc8c8f8",
+                "url": "https://api.github.com/repos/cloudfoundry-community/cf-helper-php/zipball/e2c71cf60efd5cad17f9a0764244969ad66944f4",
+                "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "~1.1",
                 "monolog/monolog": "~1.13",
-                "sphring/sphring": "~0.11",
+                "sphring/sphring": "0.11.*",
                 "symfony/yaml": "~2.5"
             },
             "require-dev": {
@@ -147,20 +147,20 @@
                 "services",
                 "vcapservices"
             ],
-            "time": "2015-04-02 16:41:14"
+            "time": "2015-04-16 13:10:44"
         },
         {
             "name": "filp/whoops",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d"
+                "reference": "c982fe62c44798c433229cb0425c61b487cc1883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/dcce91553e2e056857f1ea844949e9a8a71b613d",
-                "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/c982fe62c44798c433229cb0425c61b487cc1883",
+                "reference": "c982fe62c44798c433229cb0425c61b487cc1883",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2015-02-17 15:50:31"
+            "time": "2015-03-30 15:26:59"
         },
         {
             "name": "monolog/monolog",
@@ -469,16 +469,16 @@
         },
         {
             "name": "sphring/sphring",
-            "version": "0.11.7",
+            "version": "0.11.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sphring/sphring.git",
-                "reference": "ceb1473f0f7442e02ff08952b7861a8e6e7822f2"
+                "reference": "1670b65cb6023eeea7475f45604f2d965da26dc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sphring/sphring/zipball/ceb1473f0f7442e02ff08952b7861a8e6e7822f2",
-                "reference": "ceb1473f0f7442e02ff08952b7861a8e6e7822f2",
+                "url": "https://api.github.com/repos/sphring/sphring/zipball/1670b65cb6023eeea7475f45604f2d965da26dc5",
+                "reference": "1670b65cb6023eeea7475f45604f2d965da26dc5",
                 "shasum": ""
             },
             "require": {
@@ -519,21 +519,21 @@
                 }
             ],
             "description": "Spring port in php",
-            "time": "2015-04-01 22:18:47"
+            "time": "2015-04-06 11:05:37"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.6.6",
+            "version": "v2.6.7",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284"
+                "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/70f7c8478739ad21e3deef0d977b38c77f1fb284",
-                "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+                "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02",
                 "shasum": ""
             },
             "require": {
@@ -568,31 +568,31 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony EventDispatcher Component",
-            "homepage": "http://symfony.com",
-            "time": "2015-03-13 17:37:22"
+            "homepage": "https://symfony.com",
+            "time": "2015-05-02 15:18:45"
         },
         {
             "name": "symfony/expression-language",
-            "version": "v2.6.6",
+            "version": "v2.6.7",
             "target-dir": "Symfony/Component/ExpressionLanguage",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/expression-language.git",
-                "reference": "e5a515aa0738c1af3013127b747072124ff3da0b"
+                "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/expression-language/zipball/e5a515aa0738c1af3013127b747072124ff3da0b",
-                "reference": "e5a515aa0738c1af3013127b747072124ff3da0b",
+                "url": "https://api.github.com/repos/symfony/expression-language/zipball/f4cffea2eca850203d28209a5cbad5ad2e34b243",
+                "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243",
                 "shasum": ""
             },
             "require": {
@@ -618,31 +618,31 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony ExpressionLanguage Component",
-            "homepage": "http://symfony.com",
-            "time": "2015-03-17 06:52:13"
+            "homepage": "https://symfony.com",
+            "time": "2015-05-01 14:14:24"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.6.6",
+            "version": "v2.6.7",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "174f009ed36379a801109955fc5a71a49fe62dd4"
+                "reference": "f157ab074e453ecd4c0fa775f721f6e67a99d9e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/174f009ed36379a801109955fc5a71a49fe62dd4",
-                "reference": "174f009ed36379a801109955fc5a71a49fe62dd4",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/f157ab074e453ecd4c0fa775f721f6e67a99d9e2",
+                "reference": "f157ab074e453ecd4c0fa775f721f6e67a99d9e2",
                 "shasum": ""
             },
             "require": {
@@ -668,17 +668,17 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony Yaml Component",
-            "homepage": "http://symfony.com",
-            "time": "2015-03-30 15:54:10"
+            "homepage": "https://symfony.com",
+            "time": "2015-05-02 15:18:45"
         },
         {
             "name": "zendframework/zend-code",
@@ -863,16 +863,16 @@
         },
         {
             "name": "zf1/zend-config",
-            "version": "1.12.8",
+            "version": "1.12.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zf1/zend-config.git",
-                "reference": "e80333e2ddc92de3e6e5a389ad1303e3fa76b439"
+                "reference": "2a1e588782d74e22d73682dc71fa4a7e193d52c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zf1/zend-config/zipball/e80333e2ddc92de3e6e5a389ad1303e3fa76b439",
-                "reference": "e80333e2ddc92de3e6e5a389ad1303e3fa76b439",
+                "url": "https://api.github.com/repos/zf1/zend-config/zipball/2a1e588782d74e22d73682dc71fa4a7e193d52c4",
+                "reference": "2a1e588782d74e22d73682dc71fa4a7e193d52c4",
                 "shasum": ""
             },
             "require": {
@@ -898,20 +898,20 @@
                 "framework",
                 "zend"
             ],
-            "time": "2014-05-21 15:17:51"
+            "time": "2015-04-30 11:10:35"
         },
         {
             "name": "zf1/zend-exception",
-            "version": "1.12.8",
+            "version": "1.12.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zf1/zend-exception.git",
-                "reference": "ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11"
+                "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zf1/zend-exception/zipball/ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11",
-                "reference": "ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11",
+                "url": "https://api.github.com/repos/zf1/zend-exception/zipball/ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+                "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74",
                 "shasum": ""
             },
             "require": {
@@ -935,20 +935,20 @@
                 "framework",
                 "zend"
             ],
-            "time": "2014-05-21 15:17:51"
+            "time": "2015-04-30 11:10:20"
         },
         {
             "name": "zf1/zend-xml",
-            "version": "1.12.8",
+            "version": "1.12.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zf1/zend-xml.git",
-                "reference": "3e8f39d963283ee1e97455a26f3736856095a9b5"
+                "reference": "330ca342f69ad446b874158acc9b90dc43d9bbaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zf1/zend-xml/zipball/3e8f39d963283ee1e97455a26f3736856095a9b5",
-                "reference": "3e8f39d963283ee1e97455a26f3736856095a9b5",
+                "url": "https://api.github.com/repos/zf1/zend-xml/zipball/330ca342f69ad446b874158acc9b90dc43d9bbaa",
+                "reference": "330ca342f69ad446b874158acc9b90dc43d9bbaa",
                 "shasum": ""
             },
             "require": {
@@ -973,15 +973,13 @@
                 "xml",
                 "zend"
             ],
-            "time": "2014-08-27 14:35:56"
+            "time": "2015-04-30 11:12:33"
         }
     ],
     "packages-dev": null,
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "cloudfoundry-community/cf-helper-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

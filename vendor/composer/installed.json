@@ -115,118 +115,6 @@
         ]
     },
     {
-        "name": "symfony/yaml",
-        "version": "v2.6.6",
-        "version_normalized": "2.6.6.0",
-        "target-dir": "Symfony/Component/Yaml",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/Yaml.git",
-            "reference": "174f009ed36379a801109955fc5a71a49fe62dd4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Yaml/zipball/174f009ed36379a801109955fc5a71a49fe62dd4",
-            "reference": "174f009ed36379a801109955fc5a71a49fe62dd4",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "symfony/phpunit-bridge": "~2.7"
-        },
-        "time": "2015-03-30 15:54:10",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.6-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\Yaml\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony Yaml Component",
-        "homepage": "http://symfony.com"
-    },
-    {
-        "name": "filp/whoops",
-        "version": "1.1.4",
-        "version_normalized": "1.1.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/filp/whoops.git",
-            "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/filp/whoops/zipball/dcce91553e2e056857f1ea844949e9a8a71b613d",
-            "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "require-dev": {
-            "mockery/mockery": "0.9.*"
-        },
-        "time": "2015-02-17 15:50:31",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.2-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Whoops": "src/"
-            },
-            "classmap": [
-                "src/deprecated"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Filipe Dobreira",
-                "homepage": "https://github.com/filp",
-                "role": "Developer"
-            }
-        ],
-        "description": "php error handling for cool kids",
-        "homepage": "https://github.com/filp/whoops",
-        "keywords": [
-            "error",
-            "exception",
-            "handling",
-            "library",
-            "silex-provider",
-            "whoops",
-            "zf2"
-        ]
-    },
-    {
         "name": "zendframework/zend-stdlib",
         "version": "2.3.1",
         "version_normalized": "2.3.1.0",
@@ -439,58 +327,6 @@
         ]
     },
     {
-        "name": "symfony/expression-language",
-        "version": "v2.6.6",
-        "version_normalized": "2.6.6.0",
-        "target-dir": "Symfony/Component/ExpressionLanguage",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/expression-language.git",
-            "reference": "e5a515aa0738c1af3013127b747072124ff3da0b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/expression-language/zipball/e5a515aa0738c1af3013127b747072124ff3da0b",
-            "reference": "e5a515aa0738c1af3013127b747072124ff3da0b",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "symfony/phpunit-bridge": "~2.7"
-        },
-        "time": "2015-03-17 06:52:13",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.6-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\ExpressionLanguage\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony ExpressionLanguage Component",
-        "homepage": "http://symfony.com"
-    },
-    {
         "name": "romaricdrigon/metayaml",
         "version": "1.0.1",
         "version_normalized": "1.0.1.0",
@@ -577,187 +413,6 @@
         ]
     },
     {
-        "name": "symfony/event-dispatcher",
-        "version": "v2.6.6",
-        "version_normalized": "2.6.6.0",
-        "target-dir": "Symfony/Component/EventDispatcher",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/EventDispatcher.git",
-            "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/70f7c8478739ad21e3deef0d977b38c77f1fb284",
-            "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.0,>=2.0.5",
-            "symfony/dependency-injection": "~2.6",
-            "symfony/expression-language": "~2.6",
-            "symfony/phpunit-bridge": "~2.7",
-            "symfony/stopwatch": "~2.3"
-        },
-        "suggest": {
-            "symfony/dependency-injection": "",
-            "symfony/http-kernel": ""
-        },
-        "time": "2015-03-13 17:37:22",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.6-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\EventDispatcher\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony EventDispatcher Component",
-        "homepage": "http://symfony.com"
-    },
-    {
-        "name": "zf1/zend-exception",
-        "version": "1.12.8",
-        "version_normalized": "1.12.8.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/zf1/zend-exception.git",
-            "reference": "ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/zf1/zend-exception/zipball/ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11",
-            "reference": "ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.11"
-        },
-        "time": "2014-05-21 15:17:51",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Zend_Exception": "library/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "description": "Zend Framework 1 Exception package",
-        "homepage": "http://framework.zend.com/",
-        "keywords": [
-            "ZF1",
-            "exception",
-            "framework",
-            "zend"
-        ]
-    },
-    {
-        "name": "zf1/zend-xml",
-        "version": "1.12.8",
-        "version_normalized": "1.12.8.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/zf1/zend-xml.git",
-            "reference": "3e8f39d963283ee1e97455a26f3736856095a9b5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/zf1/zend-xml/zipball/3e8f39d963283ee1e97455a26f3736856095a9b5",
-            "reference": "3e8f39d963283ee1e97455a26f3736856095a9b5",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.11",
-            "zf1/zend-exception": "self.version"
-        },
-        "time": "2014-08-27 14:35:56",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Zend_Xml": "library/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "description": "Zend Framework 1 Xml package",
-        "homepage": "http://framework.zend.com/",
-        "keywords": [
-            "ZF1",
-            "framework",
-            "xml",
-            "zend"
-        ]
-    },
-    {
-        "name": "zf1/zend-config",
-        "version": "1.12.8",
-        "version_normalized": "1.12.8.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/zf1/zend-config.git",
-            "reference": "e80333e2ddc92de3e6e5a389ad1303e3fa76b439"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/zf1/zend-config/zipball/e80333e2ddc92de3e6e5a389ad1303e3fa76b439",
-            "reference": "e80333e2ddc92de3e6e5a389ad1303e3fa76b439",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.11",
-            "zf1/zend-exception": "self.version",
-            "zf1/zend-xml": "self.version"
-        },
-        "time": "2014-05-21 15:17:51",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Zend_Config": "library/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "description": "Zend Framework 1 Config package",
-        "homepage": "http://framework.zend.com/",
-        "keywords": [
-            "ZF1",
-            "config",
-            "framework",
-            "zend"
-        ]
-    },
-    {
         "name": "myclabs/php-enum",
         "version": "1.3.2",
         "version_normalized": "1.3.2.0",
@@ -801,51 +456,6 @@
         "homepage": "http://github.com/myclabs/php-enum",
         "keywords": [
             "enum"
-        ]
-    },
-    {
-        "name": "arhframe/util",
-        "version": "1.2.7",
-        "version_normalized": "1.2.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/arhframe/util.git",
-            "reference": "ce073c750ee38b9b6f13ca4d24aee2131f98291e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/arhframe/util/zipball/ce073c750ee38b9b6f13ca4d24aee2131f98291e",
-            "reference": "ce073c750ee38b9b6f13ca4d24aee2131f98291e",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "time": "2015-03-15 15:06:17",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Arhframe\\Util": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Arthur Halet",
-                "email": "arthurh.halet@gmail.com",
-                "homepage": "http://arthurh.fr"
-            }
-        ],
-        "description": "Util class for arhframe",
-        "homepage": "https://github.com/arhframe/util",
-        "keywords": [
-            "Arhframe",
-            "framework",
-            "util"
         ]
     },
     {
@@ -900,18 +510,408 @@
         ]
     },
     {
-        "name": "sphring/sphring",
-        "version": "0.11.7",
-        "version_normalized": "0.11.7.0",
+        "name": "symfony/yaml",
+        "version": "v2.6.7",
+        "version_normalized": "2.6.7.0",
+        "target-dir": "Symfony/Component/Yaml",
         "source": {
             "type": "git",
-            "url": "https://github.com/sphring/sphring.git",
-            "reference": "ceb1473f0f7442e02ff08952b7861a8e6e7822f2"
+            "url": "https://github.com/symfony/Yaml.git",
+            "reference": "f157ab074e453ecd4c0fa775f721f6e67a99d9e2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sphring/sphring/zipball/ceb1473f0f7442e02ff08952b7861a8e6e7822f2",
-            "reference": "ceb1473f0f7442e02ff08952b7861a8e6e7822f2",
+            "url": "https://api.github.com/repos/symfony/Yaml/zipball/f157ab074e453ecd4c0fa775f721f6e67a99d9e2",
+            "reference": "f157ab074e453ecd4c0fa775f721f6e67a99d9e2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~2.7"
+        },
+        "time": "2015-05-02 15:18:45",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Yaml\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "filp/whoops",
+        "version": "1.1.5",
+        "version_normalized": "1.1.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/filp/whoops.git",
+            "reference": "c982fe62c44798c433229cb0425c61b487cc1883"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/c982fe62c44798c433229cb0425c61b487cc1883",
+            "reference": "c982fe62c44798c433229cb0425c61b487cc1883",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*"
+        },
+        "time": "2015-03-30 15:26:59",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Whoops": "src/"
+            },
+            "classmap": [
+                "src/deprecated"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Filipe Dobreira",
+                "homepage": "https://github.com/filp",
+                "role": "Developer"
+            }
+        ],
+        "description": "php error handling for cool kids",
+        "homepage": "https://github.com/filp/whoops",
+        "keywords": [
+            "error",
+            "exception",
+            "handling",
+            "library",
+            "silex-provider",
+            "whoops",
+            "zf2"
+        ]
+    },
+    {
+        "name": "zf1/zend-exception",
+        "version": "1.12.11",
+        "version_normalized": "1.12.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zf1/zend-exception.git",
+            "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zf1/zend-exception/zipball/ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+            "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.11"
+        },
+        "time": "2015-04-30 11:10:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend_Exception": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Zend Framework 1 Exception package",
+        "homepage": "http://framework.zend.com/",
+        "keywords": [
+            "ZF1",
+            "exception",
+            "framework",
+            "zend"
+        ]
+    },
+    {
+        "name": "zf1/zend-xml",
+        "version": "1.12.11",
+        "version_normalized": "1.12.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zf1/zend-xml.git",
+            "reference": "330ca342f69ad446b874158acc9b90dc43d9bbaa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zf1/zend-xml/zipball/330ca342f69ad446b874158acc9b90dc43d9bbaa",
+            "reference": "330ca342f69ad446b874158acc9b90dc43d9bbaa",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.11",
+            "zf1/zend-exception": "self.version"
+        },
+        "time": "2015-04-30 11:12:33",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend_Xml": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Zend Framework 1 Xml package",
+        "homepage": "http://framework.zend.com/",
+        "keywords": [
+            "ZF1",
+            "framework",
+            "xml",
+            "zend"
+        ]
+    },
+    {
+        "name": "zf1/zend-config",
+        "version": "1.12.11",
+        "version_normalized": "1.12.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zf1/zend-config.git",
+            "reference": "2a1e588782d74e22d73682dc71fa4a7e193d52c4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zf1/zend-config/zipball/2a1e588782d74e22d73682dc71fa4a7e193d52c4",
+            "reference": "2a1e588782d74e22d73682dc71fa4a7e193d52c4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.11",
+            "zf1/zend-exception": "self.version",
+            "zf1/zend-xml": "self.version"
+        },
+        "time": "2015-04-30 11:10:35",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend_Config": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Zend Framework 1 Config package",
+        "homepage": "http://framework.zend.com/",
+        "keywords": [
+            "ZF1",
+            "config",
+            "framework",
+            "zend"
+        ]
+    },
+    {
+        "name": "symfony/expression-language",
+        "version": "v2.6.7",
+        "version_normalized": "2.6.7.0",
+        "target-dir": "Symfony/Component/ExpressionLanguage",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/expression-language.git",
+            "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/expression-language/zipball/f4cffea2eca850203d28209a5cbad5ad2e34b243",
+            "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~2.7"
+        },
+        "time": "2015-05-01 14:14:24",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\ExpressionLanguage\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony ExpressionLanguage Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v2.6.7",
+        "version_normalized": "2.6.7.0",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/EventDispatcher.git",
+            "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+            "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.0,>=2.0.5",
+            "symfony/dependency-injection": "~2.6",
+            "symfony/expression-language": "~2.6",
+            "symfony/phpunit-bridge": "~2.7",
+            "symfony/stopwatch": "~2.3"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2015-05-02 15:18:45",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "arhframe/util",
+        "version": "1.2.8",
+        "version_normalized": "1.2.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/arhframe/util.git",
+            "reference": "04871cb1490acc4e97a8f1ded44543eb754565c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/arhframe/util/zipball/04871cb1490acc4e97a8f1ded44543eb754565c2",
+            "reference": "04871cb1490acc4e97a8f1ded44543eb754565c2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-04-11 18:35:26",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Arhframe\\Util": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Arthur Halet",
+                "email": "arthurh.halet@gmail.com",
+                "homepage": "http://arthurh.fr"
+            }
+        ],
+        "description": "Util class for arhframe",
+        "homepage": "https://github.com/arhframe/util",
+        "keywords": [
+            "Arhframe",
+            "framework",
+            "util"
+        ]
+    },
+    {
+        "name": "sphring/sphring",
+        "version": "0.11.8",
+        "version_normalized": "0.11.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphring/sphring.git",
+            "reference": "1670b65cb6023eeea7475f45604f2d965da26dc5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphring/sphring/zipball/1670b65cb6023eeea7475f45604f2d965da26dc5",
+            "reference": "1670b65cb6023eeea7475f45604f2d965da26dc5",
             "shasum": ""
         },
         "require": {
@@ -935,7 +935,7 @@
             "monolog/monolog": "*",
             "phpunit/phpunit": "*"
         },
-        "time": "2015-04-01 22:18:47",
+        "time": "2015-04-06 11:05:37",
         "type": "sphring-plugin",
         "installation-source": "dist",
         "autoload": {
@@ -957,23 +957,23 @@
     },
     {
         "name": "cloudfoundry-community/cf-helper-php",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "1.4.9",
+        "version_normalized": "1.4.9.0",
         "source": {
             "type": "git",
             "url": "https://github.com/cloudfoundry-community/cf-helper-php.git",
-            "reference": "8b4352413423c47e5f325144efd1ca1d1bc8c8f8"
+            "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/cloudfoundry-community/cf-helper-php/zipball/8b4352413423c47e5f325144efd1ca1d1bc8c8f8",
-            "reference": "8b4352413423c47e5f325144efd1ca1d1bc8c8f8",
+            "url": "https://api.github.com/repos/cloudfoundry-community/cf-helper-php/zipball/e2c71cf60efd5cad17f9a0764244969ad66944f4",
+            "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4",
             "shasum": ""
         },
         "require": {
             "filp/whoops": "~1.1",
             "monolog/monolog": "~1.13",
-            "sphring/sphring": "~0.11",
+            "sphring/sphring": "0.11.*",
             "symfony/yaml": "~2.5"
         },
         "require-dev": {
@@ -982,7 +982,7 @@
         "suggest": {
             "predis/predis": "Let's you have a redis conection for RedisConnector"
         },
-        "time": "2015-04-02 16:41:14",
+        "time": "2015-04-16 13:10:44",
         "type": "library",
         "installation-source": "source",
         "autoload": {

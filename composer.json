@@ -31,7 +31,7 @@
     "ext-pdo_mysql": "*",
     "ext-gd": "*",
     "ext-zip": "*",
-    "cloudfoundry-community/cf-helper-php": "dev-master",
+    "cloudfoundry-community/cf-helper-php": "1.4.9",
     "monolog/monolog": "~1.13"
   },
   "require-dev": {
