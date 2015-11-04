@@ -14,4 +14,4 @@ Just 5 steps:
  3. Go inside the unzipped folder and run `cf push`
  4. Bind your mysql service with `cf bs phpmyadmin-cfready <service_name>` and repeat for all mysql services you want in your phpMyAdmin
  5. Restage the service with `cf restage phpmyadmin-cfready` 
- 6. Get username & password for login phpmyadmin-cfready: 'cf env <app_name>' and you're done.
+ 6. Get username & password for login phpmyadmin-cfready: `cf env <app_name>` and you're done.
