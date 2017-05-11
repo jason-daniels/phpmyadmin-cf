@@ -23,7 +23,6 @@
     "source": "https://github.com/phpmyadmin/phpmyadmin"
   },
   "require": {
-    "php": "5.5.*",
     "ext-mbstring": "*",
     "ext-mysqli": "*",
     "ext-mcrypt": "*",

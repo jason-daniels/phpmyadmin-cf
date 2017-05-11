@@ -1,5 +1,6 @@
 # MetaYaml
 
+[![Latest Stable Version](https://poser.pugx.org/romaricdrigon/metayaml/v/stable.svg)](https://packagist.org/packages/romaricdrigon/metayaml) 
 [![Build Status](https://travis-ci.org/romaricdrigon/MetaYaml.png?branch=master)](https://travis-ci.org/romaricdrigon/MetaYaml)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/b61e16d7-0756-42f1-8dff-32def155f608/mini.png)](https://insight.sensiolabs.com/projects/b61e16d7-0756-42f1-8dff-32def155f608)
 
@@ -30,7 +31,7 @@ It is a standalone component:
 * to use the YamlLoader, you will need the Symfony component [Yaml](https://github.com/symfony/Yaml) (standalone component, does not require Symfony2)
 * to launch the tests, you'll need [atoum](https://github.com/mageekguy/atoum)
 
-To install all these packages, you can use [composer](http://getcomposer.org): just do `composer --update`
+To install via [composer](http://getcomposer.org) just do `composer require romaricdrigon/metayaml`
 
 ## Basic usage
 
@@ -46,7 +47,7 @@ $schema = new MetaYaml($schema);
     it can take some time (up to a second for a few hundred lines)
     so do it only once, and maybe only in development!
 */
-$schema->validate_schema(); // return true or throw an exception
+$schema->validateSchema(); // return true or throw an exception
 
 // you could also have done this at init
 $schema = new MetaYaml($schema, true); // will load AND validate the schema
@@ -354,8 +355,8 @@ A few limitations, some relative to XML Schema, apply:
 
 ## Test
 
-The project is fully tested using [atoum](https://github.com/mageekguy/atoum).
-To launch tests, just run in a shell `./bin/test --test-all`
+The project is fully tested using [atoum](https://github.com/atoum/atoum).
+To launch tests, just run in a shell `./bin/test -d test`
 
 ## Extending
 

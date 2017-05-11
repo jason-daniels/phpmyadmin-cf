@@ -14,7 +14,7 @@
             "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
             "shasum": ""
         },
-        "time": "2012-12-21 11:40:51",
+        "time": "2012-12-21T11:40:51+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -40,81 +40,6 @@
         ]
     },
     {
-        "name": "monolog/monolog",
-        "version": "1.13.1",
-        "version_normalized": "1.13.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Seldaek/monolog.git",
-            "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
-            "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0",
-            "psr/log": "~1.0"
-        },
-        "provide": {
-            "psr/log-implementation": "1.0.0"
-        },
-        "require-dev": {
-            "aws/aws-sdk-php": "~2.4, >2.4.8",
-            "doctrine/couchdb": "~1.0@dev",
-            "graylog2/gelf-php": "~1.0",
-            "phpunit/phpunit": "~4.0",
-            "raven/raven": "~0.5",
-            "ruflin/elastica": "0.90.*",
-            "swiftmailer/swiftmailer": "~5.3",
-            "videlalvaro/php-amqplib": "~2.4"
-        },
-        "suggest": {
-            "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
-            "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
-            "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-            "ext-mongo": "Allow sending log messages to a MongoDB server",
-            "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-            "raven/raven": "Allow sending log messages to a Sentry server",
-            "rollbar/rollbar": "Allow sending log messages to Rollbar",
-            "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-            "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
-        },
-        "time": "2015-03-09 09:58:04",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.13.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Monolog\\": "src/Monolog"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Jordi Boggiano",
-                "email": "j.boggiano@seld.be",
-                "homepage": "http://seld.be"
-            }
-        ],
-        "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-        "homepage": "http://github.com/Seldaek/monolog",
-        "keywords": [
-            "log",
-            "logging",
-            "psr-3"
-        ]
-    },
-    {
         "name": "zendframework/zend-stdlib",
         "version": "2.3.1",
         "version_normalized": "2.3.1.0",
@@ -122,12 +47,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/zendframework/zend-stdlib.git",
-            "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6"
+            "reference": "6079302963d57f36a9ba92ed3f38b992997aa78d"
         },
         "dist": {
             "type": "zip",
             "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/6079302963d57f36a9ba92ed3f38b992997aa78d",
-            "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
+            "reference": "6079302963d57f36a9ba92ed3f38b992997aa78d",
             "shasum": ""
         },
         "require": {
@@ -143,7 +68,7 @@
             "zendframework/zend-serializer": "Zend\\Serializer component",
             "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
         },
-        "time": "2014-04-15 15:28:48",
+        "time": "2014-04-15T15:28:48+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -174,19 +99,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/zendframework/zend-eventmanager.git",
-            "reference": "957faa0580c40ef6bf6cf3e87a36d594042fe133"
+            "reference": "ec158e89d0290f988a29ccd6bf179b561efbb702"
         },
         "dist": {
             "type": "zip",
             "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/ec158e89d0290f988a29ccd6bf179b561efbb702",
-            "reference": "957faa0580c40ef6bf6cf3e87a36d594042fe133",
+            "reference": "ec158e89d0290f988a29ccd6bf179b561efbb702",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.23",
             "zendframework/zend-stdlib": "self.version"
         },
-        "time": "2014-04-15 14:47:18",
+        "time": "2014-04-15T14:47:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -217,12 +142,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/zendframework/zend-code.git",
-            "reference": "3e7cc92f946c23fb28959457fa0608c5eba29ed8"
+            "reference": "a64e90c9ee8c939335ee7e21e39e3342c0e54526"
         },
         "dist": {
             "type": "zip",
             "url": "https://api.github.com/repos/zendframework/zend-code/zipball/a64e90c9ee8c939335ee7e21e39e3342c0e54526",
-            "reference": "3e7cc92f946c23fb28959457fa0608c5eba29ed8",
+            "reference": "a64e90c9ee8c939335ee7e21e39e3342c0e54526",
             "shasum": ""
         },
         "require": {
@@ -237,7 +162,7 @@
             "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
             "zendframework/zend-stdlib": "Zend\\Stdlib component"
         },
-        "time": "2014-04-15 15:28:49",
+        "time": "2014-04-15T15:28:49+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -262,115 +187,6 @@
         ]
     },
     {
-        "name": "ocramius/proxy-manager",
-        "version": "1.0.0",
-        "version_normalized": "1.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Ocramius/ProxyManager.git",
-            "reference": "a80a39fac4fbd771aea7d3871929933a3a1bbf3e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Ocramius/ProxyManager/zipball/a80a39fac4fbd771aea7d3871929933a3a1bbf3e",
-            "reference": "a80a39fac4fbd771aea7d3871929933a3a1bbf3e",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3",
-            "zendframework/zend-code": ">2.2.5,<3.0"
-        },
-        "require-dev": {
-            "ext-phar": "*",
-            "phpunit/phpunit": "~4.0",
-            "squizlabs/php_codesniffer": "1.5.*"
-        },
-        "suggest": {
-            "ocramius/generated-hydrator": "To have very fast object to array to object conversion for ghost objects",
-            "zendframework/zend-json": "To have the JsonRpc adapter (Remote Object feature)",
-            "zendframework/zend-soap": "To have the Soap adapter (Remote Object feature)",
-            "zendframework/zend-stdlib": "To use the hydrator proxy",
-            "zendframework/zend-xmlrpc": "To have the XmlRpc adapter (Remote Object feature)"
-        },
-        "time": "2014-12-12 10:59:05",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "ProxyManager\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Marco Pivetta",
-                "email": "ocramius@gmail.com",
-                "homepage": "http://ocramius.github.com/"
-            }
-        ],
-        "description": "A library providing utilities to generate, instantiate and generally operate with Object Proxies",
-        "homepage": "https://github.com/Ocramius/ProxyManager",
-        "keywords": [
-            "aop",
-            "lazy loading",
-            "proxy",
-            "proxy pattern",
-            "service proxies"
-        ]
-    },
-    {
-        "name": "romaricdrigon/metayaml",
-        "version": "1.0.1",
-        "version_normalized": "1.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/romaricdrigon/MetaYaml.git",
-            "reference": "ebe10d1e3f334382cf65e9840df4de9c1393b261"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/romaricdrigon/MetaYaml/zipball/ebe10d1e3f334382cf65e9840df4de9c1393b261",
-            "reference": "ebe10d1e3f334382cf65e9840df4de9c1393b261",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3",
-            "symfony/yaml": "~2.3"
-        },
-        "require-dev": {
-            "atoum/atoum": "dev-master#c6ec75d4cf132728e80ec8ed1470b83cb53fc1c9"
-        },
-        "time": "2014-11-26 22:00:23",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "RomaricDrigon\\MetaYaml": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "Using [Yaml|Xml|json] schemas files to validate [Yaml|Xml|json] ",
-        "homepage": "http://github.com/romaricdrigon/MetaYaml",
-        "keywords": [
-            "json",
-            "schema",
-            "validation",
-            "xml",
-            "yaml"
-        ]
-    },
-    {
         "name": "zeptech/annotations",
         "version": "1.1.0",
         "version_normalized": "1.1.0.0",
@@ -388,7 +204,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2013-05-29 02:35:23",
+        "time": "2013-05-29T02:35:23+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -430,7 +246,7 @@
         "require": {
             "php": ">=5.2.11"
         },
-        "time": "2015-04-30 11:10:20",
+        "time": "2015-04-30T11:10:20+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -470,7 +286,7 @@
             "php": ">=5.2.11",
             "zf1/zend-exception": "self.version"
         },
-        "time": "2015-04-30 11:12:33",
+        "time": "2015-04-30T11:12:33+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -511,7 +327,7 @@
             "zf1/zend-exception": "self.version",
             "zf1/zend-xml": "self.version"
         },
-        "time": "2015-04-30 11:10:35",
+        "time": "2015-04-30T11:10:35+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -554,7 +370,7 @@
             "phpunit/phpunit": "4.*",
             "squizlabs/php_codesniffer": "1.*"
         },
-        "time": "2015-02-15 21:39:11",
+        "time": "2015-02-15T21:39:11+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -596,7 +412,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2015-04-11 18:35:26",
+        "time": "2015-04-11T18:35:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -659,7 +475,7 @@
             "monolog/monolog": "*",
             "phpunit/phpunit": "*"
         },
-        "time": "2015-04-06 11:05:37",
+        "time": "2015-04-06T11:05:37+00:00",
         "type": "sphring-plugin",
         "installation-source": "dist",
         "autoload": {
@@ -701,7 +517,7 @@
         "require-dev": {
             "phpunit/phpunit": "*"
         },
-        "time": "2015-06-01 16:54:30",
+        "time": "2015-06-01T16:54:30+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -731,99 +547,38 @@
         ]
     },
     {
-        "name": "symfony/expression-language",
-        "version": "v2.6.9",
-        "version_normalized": "2.6.9.0",
-        "target-dir": "Symfony/Component/ExpressionLanguage",
+        "name": "cloudfoundry-community/cf-helper-php",
+        "version": "1.4.9",
+        "version_normalized": "1.4.9.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/expression-language.git",
-            "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243"
+            "url": "https://github.com/cloudfoundry-community/cf-helper-php.git",
+            "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/expression-language/zipball/f4cffea2eca850203d28209a5cbad5ad2e34b243",
-            "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243",
+            "url": "https://api.github.com/repos/cloudfoundry-community/cf-helper-php/zipball/e2c71cf60efd5cad17f9a0764244969ad66944f4",
+            "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.3"
+            "filp/whoops": "~1.1",
+            "monolog/monolog": "~1.13",
+            "sphring/sphring": "0.11.*",
+            "symfony/yaml": "~2.5"
         },
         "require-dev": {
-            "symfony/phpunit-bridge": "~2.7"
-        },
-        "time": "2015-05-01 14:14:24",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.6-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\ExpressionLanguage\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony ExpressionLanguage Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/event-dispatcher",
-        "version": "v2.6.9",
-        "version_normalized": "2.6.9.0",
-        "target-dir": "Symfony/Component/EventDispatcher",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/EventDispatcher.git",
-            "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/672593bc4b0043a0acf91903bb75a1c82d8f2e02",
-            "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.0,>=2.0.5",
-            "symfony/dependency-injection": "~2.6",
-            "symfony/expression-language": "~2.6",
-            "symfony/phpunit-bridge": "~2.7",
-            "symfony/stopwatch": "~2.3"
+            "predis/predis": "~1.0"
         },
         "suggest": {
-            "symfony/dependency-injection": "",
-            "symfony/http-kernel": ""
+            "predis/predis": "Let's you have a redis conection for RedisConnector"
         },
-        "time": "2015-05-02 15:18:45",
+        "time": "2015-04-16T13:10:44+00:00",
         "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.6-dev"
-            }
-        },
         "installation-source": "dist",
         "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\EventDispatcher\\": ""
+            "psr-4": {
+                "CfCommunity\\CfHelper\\": "src/CfCommunity/CfHelper/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -832,49 +587,77 @@
         ],
         "authors": [
             {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
+                "name": "Arthur Halet",
+                "email": "arthur.halet@orange.com"
             }
         ],
-        "description": "Symfony EventDispatcher Component",
-        "homepage": "https://symfony.com"
+        "description": "Cloudfoundry helper in php",
+        "keywords": [
+            "CloudFoundry",
+            "helper",
+            "services",
+            "vcapservices"
+        ]
     },
     {
-        "name": "symfony/yaml",
-        "version": "v2.7.1",
-        "version_normalized": "2.7.1.0",
+        "name": "monolog/monolog",
+        "version": "1.22.1",
+        "version_normalized": "1.22.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/Yaml.git",
-            "reference": "9808e75c609a14f6db02f70fccf4ca4aab53c160"
+            "url": "https://github.com/Seldaek/monolog.git",
+            "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Yaml/zipball/9808e75c609a14f6db02f70fccf4ca4aab53c160",
-            "reference": "9808e75c609a14f6db02f70fccf4ca4aab53c160",
+            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1e044bc4b34e91743943479f1be7a1d5eb93add0",
+            "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.9"
+            "php": ">=5.3.0",
+            "psr/log": "~1.0"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0.0"
         },
         "require-dev": {
-            "symfony/phpunit-bridge": "~2.7"
+            "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+            "doctrine/couchdb": "~1.0@dev",
+            "graylog2/gelf-php": "~1.0",
+            "jakub-onderka/php-parallel-lint": "0.9",
+            "php-amqplib/php-amqplib": "~2.4",
+            "php-console/php-console": "^3.1.3",
+            "phpunit/phpunit": "~4.5",
+            "phpunit/phpunit-mock-objects": "2.3.0",
+            "ruflin/elastica": ">=0.90 <3.0",
+            "sentry/sentry": "^0.13",
+            "swiftmailer/swiftmailer": "~5.3"
         },
-        "time": "2015-06-10 15:30:22",
+        "suggest": {
+            "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+            "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+            "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+            "ext-mongo": "Allow sending log messages to a MongoDB server",
+            "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+            "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+            "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+            "php-console/php-console": "Allow sending log messages to Google Chrome",
+            "rollbar/rollbar": "Allow sending log messages to Rollbar",
+            "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+            "sentry/sentry": "Allow sending log messages to a Sentry server"
+        },
+        "time": "2017-03-13T07:08:03+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.7-dev"
+                "dev-master": "2.0.x-dev"
             }
         },
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Symfony\\Component\\Yaml\\": ""
+                "Monolog\\": "src/Monolog"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -883,21 +666,23 @@
         ],
         "authors": [
             {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
+                "name": "Jordi Boggiano",
+                "email": "j.boggiano@seld.be",
+                "homepage": "http://seld.be"
             }
         ],
-        "description": "Symfony Yaml Component",
-        "homepage": "https://symfony.com"
+        "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+        "homepage": "http://github.com/Seldaek/monolog",
+        "keywords": [
+            "log",
+            "logging",
+            "psr-3"
+        ]
     },
     {
         "name": "filp/whoops",
-        "version": "1.1.7",
-        "version_normalized": "1.1.7.0",
+        "version": "1.1.10",
+        "version_normalized": "1.1.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/filp/whoops.git",
@@ -915,7 +700,7 @@
         "require-dev": {
             "mockery/mockery": "0.9.*"
         },
-        "time": "2015-06-29 05:42:04",
+        "time": "2015-06-29T05:42:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -955,38 +740,47 @@
         ]
     },
     {
-        "name": "cloudfoundry-community/cf-helper-php",
-        "version": "1.4.9",
-        "version_normalized": "1.4.9.0",
+        "name": "ocramius/proxy-manager",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/cloudfoundry-community/cf-helper-php.git",
-            "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4"
+            "url": "https://github.com/Ocramius/ProxyManager.git",
+            "reference": "57e9272ec0e8deccf09421596e0e2252df440e11"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/cloudfoundry-community/cf-helper-php/zipball/e2c71cf60efd5cad17f9a0764244969ad66944f4",
-            "reference": "e2c71cf60efd5cad17f9a0764244969ad66944f4",
+            "url": "https://api.github.com/repos/Ocramius/ProxyManager/zipball/57e9272ec0e8deccf09421596e0e2252df440e11",
+            "reference": "57e9272ec0e8deccf09421596e0e2252df440e11",
             "shasum": ""
         },
         "require": {
-            "filp/whoops": "~1.1",
-            "monolog/monolog": "~1.13",
-            "sphring/sphring": "0.11.*",
-            "symfony/yaml": "~2.5"
+            "php": ">=5.3.3",
+            "zendframework/zend-code": ">2.2.5,<3.0"
         },
         "require-dev": {
-            "predis/predis": "~1.0"
+            "ext-phar": "*",
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "1.5.*"
         },
         "suggest": {
-            "predis/predis": "Let's you have a redis conection for RedisConnector"
+            "ocramius/generated-hydrator": "To have very fast object to array to object conversion for ghost objects",
+            "zendframework/zend-json": "To have the JsonRpc adapter (Remote Object feature)",
+            "zendframework/zend-soap": "To have the Soap adapter (Remote Object feature)",
+            "zendframework/zend-stdlib": "To use the hydrator proxy",
+            "zendframework/zend-xmlrpc": "To have the XmlRpc adapter (Remote Object feature)"
         },
-        "time": "2015-04-16 13:10:44",
+        "time": "2015-08-09T04:28:19+00:00",
         "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
         "installation-source": "dist",
         "autoload": {
-            "psr-4": {
-                "CfCommunity\\CfHelper\\": "src/CfCommunity/CfHelper/"
+            "psr-0": {
+                "ProxyManager\\": "src"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -995,16 +789,227 @@
         ],
         "authors": [
             {
-                "name": "Arthur Halet",
-                "email": "arthur.halet@orange.com"
+                "name": "Marco Pivetta",
+                "email": "ocramius@gmail.com",
+                "homepage": "http://ocramius.github.com/"
             }
         ],
-        "description": "Cloudfoundry helper in php",
+        "description": "A library providing utilities to generate, instantiate and generally operate with Object Proxies",
+        "homepage": "https://github.com/Ocramius/ProxyManager",
         "keywords": [
-            "CloudFoundry",
-            "helper",
-            "services",
-            "vcapservices"
+            "aop",
+            "lazy loading",
+            "proxy",
+            "proxy pattern",
+            "service proxies"
         ]
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "v2.8.20",
+        "version_normalized": "2.8.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "93ccdde79f4b079c7558da4656a3cb1c50c68e02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/93ccdde79f4b079c7558da4656a3cb1c50c68e02",
+            "reference": "93ccdde79f4b079c7558da4656a3cb1c50c68e02",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2017-05-01T14:31:55+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "romaricdrigon/metayaml",
+        "version": "1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/romaricdrigon/MetaYaml.git",
+            "reference": "03b0af567981a8a060606989c395974baf385bd1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/romaricdrigon/MetaYaml/zipball/03b0af567981a8a060606989c395974baf385bd1",
+            "reference": "03b0af567981a8a060606989c395974baf385bd1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "symfony/yaml": "~2.3|~3.0"
+        },
+        "require-dev": {
+            "atoum/atoum": "~1"
+        },
+        "time": "2016-02-29T10:28:30+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "RomaricDrigon\\MetaYaml": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Using [Yaml|Xml|json] schemas files to validate [Yaml|Xml|json] ",
+        "homepage": "http://github.com/romaricdrigon/MetaYaml",
+        "keywords": [
+            "json",
+            "schema",
+            "validation",
+            "xml",
+            "yaml"
+        ]
+    },
+    {
+        "name": "symfony/expression-language",
+        "version": "v2.6.13",
+        "version_normalized": "2.6.13.0",
+        "target-dir": "Symfony/Component/ExpressionLanguage",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/expression-language.git",
+            "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/expression-language/zipball/f4cffea2eca850203d28209a5cbad5ad2e34b243",
+            "reference": "f4cffea2eca850203d28209a5cbad5ad2e34b243",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~2.7"
+        },
+        "time": "2015-05-01T14:14:24+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\ExpressionLanguage\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony ExpressionLanguage Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v2.6.13",
+        "version_normalized": "2.6.13.0",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+            "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.0,>=2.0.5",
+            "symfony/dependency-injection": "~2.6",
+            "symfony/expression-language": "~2.6",
+            "symfony/phpunit-bridge": "~2.7",
+            "symfony/stopwatch": "~2.3"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2015-05-02T15:18:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
     }
 ]
